@@ -10,6 +10,7 @@ from .fasnet import FasNetTAC
 from .lstm_tasnet import LSTMTasNet
 from .demask import DeMask
 from .x_umx import XUMX
+from .robust_tcn import RobustTCN
 
 # Sharing-related
 from .publisher import save_publishable, upload_publishable
@@ -26,6 +27,7 @@ __all__ = [
     "DCUNet",
     "DCCRNet",
     "XUMX",
+    "RobustTCN"
     "save_publishable",
     "upload_publishable",
 ]
