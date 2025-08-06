@@ -10,6 +10,8 @@ from .kinect_wsj import KinectWsjMixDataset
 from .fuss_dataset import FUSSDataset
 from .dampvsep_dataset import DAMPVSEPSinglesDataset
 from .vad_dataset import LibriVADDataset
+from .walkman_dataset import WalkmanDataset
+from .walkman_prob_dataset import WalkmanProbDataset
 
 __all__ = [
     "AVSpeechDataset",
@@ -24,4 +26,6 @@ __all__ = [
     "FUSSDataset",
     "DAMPVSEPSinglesDataset",
     "LibriVADDataset",
+    "WalkmanDataset",
+    "WalkmanProbDataset",
 ]
